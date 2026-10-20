@@ -20,7 +20,7 @@ CATEGORY_ORDER = [
     "詢價、樣品與客服",
 ]
 
-st.set_page_config(page_title="FPC 線上客服", page_icon="💬", layout="centered")
+st.set_page_config(page_title="FCCL 線上客服", page_icon="💬", layout="centered")
 load_dotenv()
 
 
@@ -75,7 +75,7 @@ def categorize_question(question: str) -> str:
     return "詢價、樣品與客服"
 
 
-st.title("FPC 材料線上客服")
+st.title("FCCL 材料線上客服")
 st.write("可詢問 3L-SS、3L-DS、2L-CAST、2L-SPT 與 2L-LAMI 材料。")
 
 qa_questions = load_qa_questions()

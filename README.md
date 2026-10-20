@@ -1,4 +1,4 @@
-# FPC 材料語意問答客服
+# FCCL 材料語意問答客服
 
 使用 Streamlit 建立線上客服介面。使用多語言 Sentence Transformers 模型將問題轉成 384 維向量，再呼叫 Supabase `match_qa` 函式搜尋 `public.qa`。
 
